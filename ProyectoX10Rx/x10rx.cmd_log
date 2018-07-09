@@ -1,0 +1,7 @@
+xst -intstyle ise -ifn "C:/Users/gggus/Documents/FPGA/ProyectoX10Rx/x10rx.xst" -ofn "C:/Users/gggus/Documents/FPGA/ProyectoX10Rx/x10rx.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s50a-tq144-5 x10rx.ngc x10rx.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o x10rx_map.ncd x10rx.ngd x10rx.pcf 
+par -w -intstyle ise -ol high -t 1 x10rx_map.ncd x10rx.ncd x10rx.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml x10rx.twx x10rx.ncd -o x10rx.twr x10rx.pcf 
+bitgen -intstyle ise -f x10rx.ut x10rx.ncd 
+bitgen -intstyle ise -f x10rx.ut x10rx.ncd 

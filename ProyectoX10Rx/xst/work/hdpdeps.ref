@@ -1,0 +1,6 @@
+V3 3
+FL C:/Users/gggus/Documents/FPGA/ProyectoX10Rx/x10rx.vhd 2018/07/05.14:14:21 P.20131013
+EN work/x10rx 1530821692 FL C:/Users/gggus/Documents/FPGA/ProyectoX10Rx/x10rx.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/x10rx/Behavioral 1530821693 \
+      FL C:/Users/gggus/Documents/FPGA/ProyectoX10Rx/x10rx.vhd EN work/x10rx 1530821692

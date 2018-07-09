@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\Users\gggus\Documents\FPGA\ProyectoX10Rx\x10rx.ncd
+OUTFILE=C:\Users\gggus\Documents\FPGA\ProyectoX10Rx\x10rx.bit
+FAMILY=Spartan3A and Spartan3AN
+PART=xc3s50a-5tq144
+WORKINGDIR=C:\Users\gggus\Documents\FPGA\ProyectoX10Rx
+LICENSE=WebPack
+USER_INFO=__0_0_0
