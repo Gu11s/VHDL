@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<generated_project xmlns="http://www.xilinx.com/XMLSchema" xmlns:xil_pn="http://www.xilinx.com/XMLSchema">
+
+  <!--                                                          -->
+
+  <!--             For tool use only. Do not edit.              -->
+
+  <!--                                                          -->
+
+  <!-- ProjectNavigator created generated project file.         -->
+
+  <!-- For use in tracking generated file and other information -->
+
+  <!-- allowing preservation of process status.                 -->
+
+  <!--                                                          -->
+
+  <!-- Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved. -->
+
+  <version xmlns="http://www.xilinx.com/XMLSchema">11.1</version>
+
+  <sourceproject xmlns="http://www.xilinx.com/XMLSchema" xil_pn:fileType="FILE_XISE" xil_pn:name="Pulso120k.xise"/>
+
+  <files xmlns="http://www.xilinx.com/XMLSchema">
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="_ngo"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/bitgen.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/map.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/par.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/trce.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/xst.xmsgs"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BITGEN_REPORT" xil_pn:name="pulso120k.bgn" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:fileType="FILE_BIN" xil_pn:name="pulso120k.bin"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BIT" xil_pn:name="pulso120k.bit" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGDBUILD_LOG" xil_pn:name="pulso120k.bld"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="pulso120k.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BITGEN_DRC" xil_pn:name="pulso120k.drc" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="pulso120k.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NCD" xil_pn:name="pulso120k.ncd" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="pulso120k.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGD" xil_pn:name="pulso120k.ngd"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="pulso120k.ngr"/>
+    <file xil_pn:fileType="FILE_PAD_MISC" xil_pn:name="pulso120k.pad"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAR_REPORT" xil_pn:name="pulso120k.par" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PCF" xil_pn:name="pulso120k.pcf" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="pulso120k.prj"/>
+    <file xil_pn:fileType="FILE_TRCE_MISC" xil_pn:name="pulso120k.ptwx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="pulso120k.stx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="pulso120k.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_TXT_REPORT" xil_pn:name="pulso120k.twr" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_XML_REPORT" xil_pn:name="pulso120k.twx" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_UNROUTES" xil_pn:name="pulso120k.unroutes" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BITGEN_REPORT" xil_pn:name="pulso120k.ut" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:fileType="FILE_XPI" xil_pn:name="pulso120k.xpi"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="pulso120k.xst"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="pulso120k_envsettings.html"/>
+    <file xil_pn:fileType="FILE_NCD" xil_pn:name="pulso120k_guide.ncd" xil_pn:origination="imported"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="pulso120k_map.map" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="pulso120k_map.mrp" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NCD" xil_pn:name="pulso120k_map.ncd" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGM" xil_pn:name="pulso120k_map.ngm" xil_pn:subbranch="Map"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="pulso120k_map.xrpt"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="pulso120k_ngdbuild.xrpt"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAD_EXCEL_REPORT" xil_pn:name="pulso120k_pad.csv" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAD_TXT_REPORT" xil_pn:name="pulso120k_pad.txt" xil_pn:subbranch="Par"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="pulso120k_par.xrpt"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="pulso120k_summary.html"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="pulso120k_summary.xml"/>
+    <file xil_pn:fileType="FILE_WEBTALK" xil_pn:name="pulso120k_usage.xml"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="pulso120k_vhdl.prj"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="pulso120k_xst.xrpt"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="usage_statistics_webtalk.html"/>
+    <file xil_pn:fileType="FILE_LOG" xil_pn:name="webtalk.log"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="webtalk_pn.xml"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xlnx_auto_0_xdb"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xst"/>
+  </files>
+
+  <transforms xmlns="http://www.xilinx.com/XMLSchema">
+    <transform xil_pn:end_ts="1529965895" xil_pn:name="TRAN_copyInitialToXSTAbstractSynthesis" xil_pn:start_ts="1529965894">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1529965895" xil_pn:name="TRAN_schematicsToHdl" xil_pn:prop_ck="-1741216692463698276" xil_pn:start_ts="1529965895">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1529965895" xil_pn:name="TRAN_regenerateCores" xil_pn:prop_ck="-2956989062028144927" xil_pn:start_ts="1529965895">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1529965895" xil_pn:name="TRAN_SubProjectAbstractToPreProxy" xil_pn:start_ts="1529965895">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1529965895" xil_pn:name="TRAN_xawsTohdl" xil_pn:prop_ck="5945955282509333620" xil_pn:start_ts="1529965895">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1529965895" xil_pn:name="TRAN_SubProjectPreToStructuralProxy" xil_pn:prop_ck="1430049303116325842" xil_pn:start_ts="1529965895">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1529965895" xil_pn:name="TRAN_platgen" xil_pn:prop_ck="5539644223488521579" xil_pn:start_ts="1529965895">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1530778614" xil_pn:in_ck="8420517517100528769" xil_pn:name="TRANEXT_xstsynthesize_spartan3e" xil_pn:prop_ck="8867612461069021832" xil_pn:start_ts="1530778607">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="_xmsgs/xst.xmsgs"/>
+      <outfile xil_pn:name="pulso120k.lso"/>
+      <outfile xil_pn:name="pulso120k.ngc"/>
+      <outfile xil_pn:name="pulso120k.ngr"/>
+      <outfile xil_pn:name="pulso120k.prj"/>
+      <outfile xil_pn:name="pulso120k.stx"/>
+      <outfile xil_pn:name="pulso120k.syr"/>
+      <outfile xil_pn:name="pulso120k.xst"/>
+      <outfile xil_pn:name="pulso120k_vhdl.prj"/>
+      <outfile xil_pn:name="pulso120k_xst.xrpt"/>
+      <outfile xil_pn:name="webtalk_pn.xml"/>
+      <outfile xil_pn:name="xst"/>
+    </transform>
+    <transform xil_pn:end_ts="1530752649" xil_pn:in_ck="155098904106" xil_pn:name="TRAN_compileBCD2" xil_pn:prop_ck="-9022064634430629335" xil_pn:start_ts="1530752649">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1530778619" xil_pn:in_ck="613503084551708833" xil_pn:name="TRANEXT_ngdbuild_FPGA" xil_pn:prop_ck="3084260844424239960" xil_pn:start_ts="1530778614">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="_ngo"/>
+      <outfile xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
+      <outfile xil_pn:name="pulso120k.bld"/>
+      <outfile xil_pn:name="pulso120k.ngd"/>
+      <outfile xil_pn:name="pulso120k_ngdbuild.xrpt"/>
+    </transform>
+    <transform xil_pn:end_ts="1530778623" xil_pn:in_ck="613503127170151810" xil_pn:name="TRANEXT_map_spartan3" xil_pn:prop_ck="6301418164239633844" xil_pn:start_ts="1530778619">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="_xmsgs/map.xmsgs"/>
+      <outfile xil_pn:name="pulso120k.pcf"/>
+      <outfile xil_pn:name="pulso120k_map.map"/>
+      <outfile xil_pn:name="pulso120k_map.mrp"/>
+      <outfile xil_pn:name="pulso120k_map.ncd"/>
+      <outfile xil_pn:name="pulso120k_map.ngm"/>
+      <outfile xil_pn:name="pulso120k_map.xrpt"/>
+      <outfile xil_pn:name="pulso120k_summary.xml"/>
+      <outfile xil_pn:name="pulso120k_usage.xml"/>
+    </transform>
+    <transform xil_pn:end_ts="1530778631" xil_pn:in_ck="-6287869750503204229" xil_pn:name="TRANEXT_par_spartan3" xil_pn:prop_ck="4891759239423368658" xil_pn:start_ts="1530778623">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="_xmsgs/par.xmsgs"/>
+      <outfile xil_pn:name="pulso120k.ncd"/>
+      <outfile xil_pn:name="pulso120k.pad"/>
+      <outfile xil_pn:name="pulso120k.par"/>
+      <outfile xil_pn:name="pulso120k.ptwx"/>
+      <outfile xil_pn:name="pulso120k.unroutes"/>
+      <outfile xil_pn:name="pulso120k.xpi"/>
+      <outfile xil_pn:name="pulso120k_pad.csv"/>
+      <outfile xil_pn:name="pulso120k_pad.txt"/>
+      <outfile xil_pn:name="pulso120k_par.xrpt"/>
+    </transform>
+    <transform xil_pn:end_ts="1530778646" xil_pn:in_ck="8420517517100519892" xil_pn:name="TRANEXT_bitFile_spartan3a" xil_pn:prop_ck="1406129783654645690" xil_pn:start_ts="1530778631">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="_xmsgs/bitgen.xmsgs"/>
+      <outfile xil_pn:name="pulso120k.bgn"/>
+      <outfile xil_pn:name="pulso120k.bin"/>
+      <outfile xil_pn:name="pulso120k.bit"/>
+      <outfile xil_pn:name="pulso120k.drc"/>
+      <outfile xil_pn:name="pulso120k.ut"/>
+      <outfile xil_pn:name="usage_statistics_webtalk.html"/>
+      <outfile xil_pn:name="webtalk.log"/>
+      <outfile xil_pn:name="webtalk_pn.xml"/>
+    </transform>
+    <transform xil_pn:end_ts="1530778631" xil_pn:in_ck="613497501535678846" xil_pn:name="TRAN_postRouteTrce" xil_pn:prop_ck="445577401284416187" xil_pn:start_ts="1530778628">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="_xmsgs/trce.xmsgs"/>
+      <outfile xil_pn:name="pulso120k.twr"/>
+      <outfile xil_pn:name="pulso120k.twx"/>
+    </transform>
+  </transforms>
+
+</generated_project>

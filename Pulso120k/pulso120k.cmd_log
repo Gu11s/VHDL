@@ -1,0 +1,278 @@
+xst -intstyle ise -ifn "C:/Users/USUARIO/Documents/FPGA/Pulso120k/pulso120k.xst" -ofn "C:/Users/USUARIO/Documents/FPGA/Pulso120k/pulso120k.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ucf.ucf -p xc7a100t-csg324-3 pulso120k.ngc pulso120k.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o pulso120k_map.ncd pulso120k.ngd pulso120k.pcf 
+xst -intstyle ise -ifn "C:/Users/USUARIO/Documents/FPGA/Pulso120k/pulso120k.xst" -ofn "C:/Users/USUARIO/Documents/FPGA/Pulso120k/pulso120k.syr" 
+xst -intstyle ise -ifn "C:/Users/USUARIO/Documents/FPGA/Pulso120k/pulso120k.xst" -ofn "C:/Users/USUARIO/Documents/FPGA/Pulso120k/pulso120k.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ucf.ucf -p xc7a100t-csg324-3 pulso120k.ngc pulso120k.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o pulso120k_map.ncd pulso120k.ngd pulso120k.pcf 
+xst -intstyle ise -ifn "C:/Users/USUARIO/Documents/FPGA/Pulso120k/pulso120k.xst" -ofn "C:/Users/USUARIO/Documents/FPGA/Pulso120k/pulso120k.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ucf.ucf -p xc7a100t-csg324-3 pulso120k.ngc pulso120k.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o pulso120k_map.ncd pulso120k.ngd pulso120k.pcf 
+xst -intstyle ise -ifn "C:/Users/USUARIO/Documents/FPGA/Pulso120k/pulso120k.xst" -ofn "C:/Users/USUARIO/Documents/FPGA/Pulso120k/pulso120k.syr" 
+xst -intstyle ise -ifn "C:/Users/USUARIO/Documents/FPGA/Pulso120k/pulso120k.xst" -ofn "C:/Users/USUARIO/Documents/FPGA/Pulso120k/pulso120k.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ucf.ucf -p xc7a100t-csg324-3 pulso120k.ngc pulso120k.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o pulso120k_map.ncd pulso120k.ngd pulso120k.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ucf.ucf -p xc7a100t-csg324-3 pulso120k.ngc pulso120k.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o pulso120k_map.ncd pulso120k.ngd pulso120k.pcf 
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o pulso120k_map.ncd pulso120k.ngd pulso120k.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ucf.ucf -p xc7a100t-csg324-3 pulso120k.ngc pulso120k.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o pulso120k_map.ncd pulso120k.ngd pulso120k.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ucf.ucf -p xc7a100t-csg324-3 pulso120k.ngc pulso120k.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o pulso120k_map.ncd pulso120k.ngd pulso120k.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc7a100t-csg324-3 pulso120k.ngc pulso120k.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o pulso120k_map.ncd pulso120k.ngd pulso120k.pcf 
+par -w -intstyle ise -ol high -mt off pulso120k_map.ncd pulso120k.ncd pulso120k.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml pulso120k.twx pulso120k.ncd -o pulso120k.twr pulso120k.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ucf.ucf -p xc7a100t-csg324-3 pulso120k.ngc pulso120k.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o pulso120k_map.ncd pulso120k.ngd pulso120k.pcf 
+xst -intstyle ise -ifn "C:/Users/USUARIO/Documents/FPGA/Pulso120k/pulso120k.xst" -ofn "C:/Users/USUARIO/Documents/FPGA/Pulso120k/pulso120k.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ucf.ucf -p xc7a100t-csg324-3 pulso120k.ngc pulso120k.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o pulso120k_map.ncd pulso120k.ngd pulso120k.pcf 
+xst -intstyle ise -ifn "C:/Users/USUARIO/Documents/FPGA/Pulso120k/pulso120k.xst" -ofn "C:/Users/USUARIO/Documents/FPGA/Pulso120k/pulso120k.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ucf.ucf -p xc7a100t-csg324-3 pulso120k.ngc pulso120k.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o pulso120k_map.ncd pulso120k.ngd pulso120k.pcf 
+xst -intstyle ise -ifn "C:/Users/USUARIO/Documents/FPGA/Pulso120k/pulso120k.xst" -ofn "C:/Users/USUARIO/Documents/FPGA/Pulso120k/pulso120k.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ucf.ucf -p xc3s50a-tq144-5 pulso120k.ngc pulso120k.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o pulso120k_map.ncd pulso120k.ngd pulso120k.pcf 
+par -w -intstyle ise -ol high -t 1 pulso120k_map.ncd pulso120k.ncd pulso120k.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml pulso120k.twx pulso120k.ncd -o pulso120k.twr pulso120k.pcf -ucf ucf.ucf 
+bitgen -intstyle ise -f pulso120k.ut pulso120k.ncd 
+bitgen -intstyle ise -f pulso120k.ut pulso120k.ncd 
+xst -intstyle ise -ifn "C:/Users/USUARIO/Documents/FPGA/Pulso120k/pulso120k.xst" -ofn "C:/Users/USUARIO/Documents/FPGA/Pulso120k/pulso120k.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ucf.ucf -p xc3s50a-tq144-5 pulso120k.ngc pulso120k.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o pulso120k_map.ncd pulso120k.ngd pulso120k.pcf 
+par -w -intstyle ise -ol high -t 1 pulso120k_map.ncd pulso120k.ncd pulso120k.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml pulso120k.twx pulso120k.ncd -o pulso120k.twr pulso120k.pcf -ucf ucf.ucf 
+bitgen -intstyle ise -f pulso120k.ut pulso120k.ncd 
+xst -intstyle ise -ifn "C:/Users/USUARIO/Documents/FPGA/Pulso120k/pulso120k.xst" -ofn "C:/Users/USUARIO/Documents/FPGA/Pulso120k/pulso120k.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ucf.ucf -p xc3s50a-tq144-5 pulso120k.ngc pulso120k.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o pulso120k_map.ncd pulso120k.ngd pulso120k.pcf 
+par -w -intstyle ise -ol high -t 1 pulso120k_map.ncd pulso120k.ncd pulso120k.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml pulso120k.twx pulso120k.ncd -o pulso120k.twr pulso120k.pcf -ucf ucf.ucf 
+bitgen -intstyle ise -f pulso120k.ut pulso120k.ncd 
+xst -intstyle ise -ifn "C:/Users/USUARIO/Documents/FPGA/Pulso120k/pulso120k.xst" -ofn "C:/Users/USUARIO/Documents/FPGA/Pulso120k/pulso120k.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ucf.ucf -p xc3s50a-tq144-5 pulso120k.ngc pulso120k.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o pulso120k_map.ncd pulso120k.ngd pulso120k.pcf 
+par -w -intstyle ise -ol high -t 1 pulso120k_map.ncd pulso120k.ncd pulso120k.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml pulso120k.twx pulso120k.ncd -o pulso120k.twr pulso120k.pcf -ucf ucf.ucf 
+bitgen -intstyle ise -f pulso120k.ut pulso120k.ncd 
+xst -intstyle ise -ifn "C:/Users/USUARIO/Documents/FPGA/Pulso120k/pulso120k.xst" -ofn "C:/Users/USUARIO/Documents/FPGA/Pulso120k/pulso120k.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ucf.ucf -p xc3s50a-tq144-5 pulso120k.ngc pulso120k.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o pulso120k_map.ncd pulso120k.ngd pulso120k.pcf 
+par -w -intstyle ise -ol high -t 1 pulso120k_map.ncd pulso120k.ncd pulso120k.pcf 
+bitgen -intstyle ise -f pulso120k.ut pulso120k.ncd 
+xst -intstyle ise -ifn "C:/Users/USUARIO/Documents/FPGA/Pulso120k/pulso120k.xst" -ofn "C:/Users/USUARIO/Documents/FPGA/Pulso120k/pulso120k.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ucf.ucf -p xc3s50a-tq144-5 pulso120k.ngc pulso120k.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o pulso120k_map.ncd pulso120k.ngd pulso120k.pcf 
+par -w -intstyle ise -ol high -t 1 pulso120k_map.ncd pulso120k.ncd pulso120k.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml pulso120k.twx pulso120k.ncd -o pulso120k.twr pulso120k.pcf -ucf ucf.ucf 
+bitgen -intstyle ise -f pulso120k.ut pulso120k.ncd 
+xst -intstyle ise -ifn "C:/Users/USUARIO/Documents/FPGA/Pulso120k/pulso120k.xst" -ofn "C:/Users/USUARIO/Documents/FPGA/Pulso120k/pulso120k.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ucf.ucf -p xc3s50a-tq144-5 pulso120k.ngc pulso120k.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o pulso120k_map.ncd pulso120k.ngd pulso120k.pcf 
+par -w -intstyle ise -ol high -t 1 pulso120k_map.ncd pulso120k.ncd pulso120k.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml pulso120k.twx pulso120k.ncd -o pulso120k.twr pulso120k.pcf -ucf ucf.ucf 
+bitgen -intstyle ise -f pulso120k.ut pulso120k.ncd 
+xst -intstyle ise -ifn "C:/Users/USUARIO/Documents/FPGA/Pulso120k/pulso120k.xst" -ofn "C:/Users/USUARIO/Documents/FPGA/Pulso120k/pulso120k.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ucf.ucf -p xc3s50a-tq144-5 pulso120k.ngc pulso120k.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o pulso120k_map.ncd pulso120k.ngd pulso120k.pcf 
+par -w -intstyle ise -ol high -t 1 pulso120k_map.ncd pulso120k.ncd pulso120k.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml pulso120k.twx pulso120k.ncd -o pulso120k.twr pulso120k.pcf -ucf ucf.ucf 
+bitgen -intstyle ise -f pulso120k.ut pulso120k.ncd 
+xst -intstyle ise -ifn "C:/Users/USUARIO/Documents/FPGA/Pulso120k/pulso120k.xst" -ofn "C:/Users/USUARIO/Documents/FPGA/Pulso120k/pulso120k.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ucf.ucf -p xc3s50a-tq144-5 pulso120k.ngc pulso120k.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o pulso120k_map.ncd pulso120k.ngd pulso120k.pcf 
+par -w -intstyle ise -ol high -t 1 pulso120k_map.ncd pulso120k.ncd pulso120k.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml pulso120k.twx pulso120k.ncd -o pulso120k.twr pulso120k.pcf -ucf ucf.ucf 
+bitgen -intstyle ise -f pulso120k.ut pulso120k.ncd 
+xst -intstyle ise -ifn "C:/Users/USUARIO/Documents/FPGA/Pulso120k/pulso120k.xst" -ofn "C:/Users/USUARIO/Documents/FPGA/Pulso120k/pulso120k.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ucf.ucf -p xc3s50a-tq144-5 pulso120k.ngc pulso120k.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o pulso120k_map.ncd pulso120k.ngd pulso120k.pcf 
+par -w -intstyle ise -ol high -t 1 pulso120k_map.ncd pulso120k.ncd pulso120k.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml pulso120k.twx pulso120k.ncd -o pulso120k.twr pulso120k.pcf -ucf ucf.ucf 
+bitgen -intstyle ise -f pulso120k.ut pulso120k.ncd 
+xst -intstyle ise -ifn "C:/Users/USUARIO/Documents/FPGA/Pulso120k/pulso120k.xst" -ofn "C:/Users/USUARIO/Documents/FPGA/Pulso120k/pulso120k.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ucf.ucf -p xc3s50a-tq144-5 pulso120k.ngc pulso120k.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o pulso120k_map.ncd pulso120k.ngd pulso120k.pcf 
+par -w -intstyle ise -ol high -t 1 pulso120k_map.ncd pulso120k.ncd pulso120k.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml pulso120k.twx pulso120k.ncd -o pulso120k.twr pulso120k.pcf -ucf ucf.ucf 
+bitgen -intstyle ise -f pulso120k.ut pulso120k.ncd 
+xst -intstyle ise -ifn "C:/Users/USUARIO/Documents/FPGA/Pulso120k/pulso120k.xst" -ofn "C:/Users/USUARIO/Documents/FPGA/Pulso120k/pulso120k.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ucf.ucf -p xc3s50a-tq144-5 pulso120k.ngc pulso120k.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o pulso120k_map.ncd pulso120k.ngd pulso120k.pcf 
+par -w -intstyle ise -ol high -t 1 pulso120k_map.ncd pulso120k.ncd pulso120k.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml pulso120k.twx pulso120k.ncd -o pulso120k.twr pulso120k.pcf -ucf ucf.ucf 
+bitgen -intstyle ise -f pulso120k.ut pulso120k.ncd 
+xst -intstyle ise -ifn "C:/Users/USUARIO/Documents/FPGA/Pulso120k/pulso120k.xst" -ofn "C:/Users/USUARIO/Documents/FPGA/Pulso120k/pulso120k.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ucf.ucf -p xc3s50a-tq144-5 pulso120k.ngc pulso120k.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o pulso120k_map.ncd pulso120k.ngd pulso120k.pcf 
+par -w -intstyle ise -ol high -t 1 pulso120k_map.ncd pulso120k.ncd pulso120k.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml pulso120k.twx pulso120k.ncd -o pulso120k.twr pulso120k.pcf -ucf ucf.ucf 
+bitgen -intstyle ise -f pulso120k.ut pulso120k.ncd 
+xst -intstyle ise -ifn "C:/Users/USUARIO/Documents/FPGA/Pulso120k/pulso120k.xst" -ofn "C:/Users/USUARIO/Documents/FPGA/Pulso120k/pulso120k.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ucf.ucf -p xc3s50a-tq144-5 pulso120k.ngc pulso120k.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o pulso120k_map.ncd pulso120k.ngd pulso120k.pcf 
+par -w -intstyle ise -ol high -t 1 pulso120k_map.ncd pulso120k.ncd pulso120k.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml pulso120k.twx pulso120k.ncd -o pulso120k.twr pulso120k.pcf -ucf ucf.ucf 
+bitgen -intstyle ise -f pulso120k.ut pulso120k.ncd 
+xst -intstyle ise -ifn "C:/Users/USUARIO/Documents/FPGA/Pulso120k/pulso120k.xst" -ofn "C:/Users/USUARIO/Documents/FPGA/Pulso120k/pulso120k.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ucf.ucf -p xc3s50a-tq144-5 pulso120k.ngc pulso120k.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o pulso120k_map.ncd pulso120k.ngd pulso120k.pcf 
+par -w -intstyle ise -ol high -t 1 pulso120k_map.ncd pulso120k.ncd pulso120k.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml pulso120k.twx pulso120k.ncd -o pulso120k.twr pulso120k.pcf -ucf ucf.ucf 
+bitgen -intstyle ise -f pulso120k.ut pulso120k.ncd 
+xst -intstyle ise -ifn "C:/Users/USUARIO/Documents/FPGA/Pulso120k/pulso120k.xst" -ofn "C:/Users/USUARIO/Documents/FPGA/Pulso120k/pulso120k.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ucf.ucf -p xc3s50a-tq144-5 pulso120k.ngc pulso120k.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o pulso120k_map.ncd pulso120k.ngd pulso120k.pcf 
+par -w -intstyle ise -ol high -t 1 pulso120k_map.ncd pulso120k.ncd pulso120k.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml pulso120k.twx pulso120k.ncd -o pulso120k.twr pulso120k.pcf -ucf ucf.ucf 
+bitgen -intstyle ise -f pulso120k.ut pulso120k.ncd 
+xst -intstyle ise -ifn "C:/Users/USUARIO/Documents/FPGA/Pulso120k/pulso120k.xst" -ofn "C:/Users/USUARIO/Documents/FPGA/Pulso120k/pulso120k.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ucf.ucf -p xc3s50a-tq144-5 pulso120k.ngc pulso120k.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o pulso120k_map.ncd pulso120k.ngd pulso120k.pcf 
+par -w -intstyle ise -ol high -t 1 pulso120k_map.ncd pulso120k.ncd pulso120k.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml pulso120k.twx pulso120k.ncd -o pulso120k.twr pulso120k.pcf -ucf ucf.ucf 
+bitgen -intstyle ise -f pulso120k.ut pulso120k.ncd 
+xst -intstyle ise -ifn "C:/Users/USUARIO/Documents/FPGA/Pulso120k/pulso120k.xst" -ofn "C:/Users/USUARIO/Documents/FPGA/Pulso120k/pulso120k.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ucf.ucf -p xc3s50a-tq144-5 pulso120k.ngc pulso120k.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o pulso120k_map.ncd pulso120k.ngd pulso120k.pcf 
+par -w -intstyle ise -ol high -t 1 pulso120k_map.ncd pulso120k.ncd pulso120k.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml pulso120k.twx pulso120k.ncd -o pulso120k.twr pulso120k.pcf -ucf ucf.ucf 
+bitgen -intstyle ise -f pulso120k.ut pulso120k.ncd 
+xst -intstyle ise -ifn "F:/FPGA/Junio2018/Pulso120k/pulso120k.xst" -ofn "F:/FPGA/Junio2018/Pulso120k/pulso120k.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ucf.ucf -p xc3s50a-tq144-5 pulso120k.ngc pulso120k.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o pulso120k_map.ncd pulso120k.ngd pulso120k.pcf 
+par -w -intstyle ise -ol high -t 1 pulso120k_map.ncd pulso120k.ncd pulso120k.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml pulso120k.twx pulso120k.ncd -o pulso120k.twr pulso120k.pcf -ucf ucf.ucf 
+bitgen -intstyle ise -f pulso120k.ut pulso120k.ncd 
+xst -intstyle ise -ifn "F:/FPGA/Junio2018/Pulso120k/pulso120k.xst" -ofn "F:/FPGA/Junio2018/Pulso120k/pulso120k.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ucf.ucf -p xc3s50a-tq144-5 pulso120k.ngc pulso120k.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o pulso120k_map.ncd pulso120k.ngd pulso120k.pcf 
+par -w -intstyle ise -ol high -t 1 pulso120k_map.ncd pulso120k.ncd pulso120k.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml pulso120k.twx pulso120k.ncd -o pulso120k.twr pulso120k.pcf -ucf ucf.ucf 
+bitgen -intstyle ise -f pulso120k.ut pulso120k.ncd 
+xst -intstyle ise -ifn "F:/FPGA/Junio2018/Pulso120k/pulso120k.xst" -ofn "F:/FPGA/Junio2018/Pulso120k/pulso120k.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ucf.ucf -p xc3s50a-tq144-5 pulso120k.ngc pulso120k.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o pulso120k_map.ncd pulso120k.ngd pulso120k.pcf 
+par -w -intstyle ise -ol high -t 1 pulso120k_map.ncd pulso120k.ncd pulso120k.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml pulso120k.twx pulso120k.ncd -o pulso120k.twr pulso120k.pcf -ucf ucf.ucf 
+bitgen -intstyle ise -f pulso120k.ut pulso120k.ncd 
+xst -intstyle ise -ifn "F:/FPGA/Junio2018/Pulso120k/pulso120k.xst" -ofn "F:/FPGA/Junio2018/Pulso120k/pulso120k.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ucf.ucf -p xc3s50a-tq144-5 pulso120k.ngc pulso120k.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o pulso120k_map.ncd pulso120k.ngd pulso120k.pcf 
+par -w -intstyle ise -ol high -t 1 pulso120k_map.ncd pulso120k.ncd pulso120k.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml pulso120k.twx pulso120k.ncd -o pulso120k.twr pulso120k.pcf -ucf ucf.ucf 
+bitgen -intstyle ise -f pulso120k.ut pulso120k.ncd 
+xst -intstyle ise -ifn "F:/FPGA/Junio2018/Pulso120k/pulso120k.xst" -ofn "F:/FPGA/Junio2018/Pulso120k/pulso120k.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ucf.ucf -p xc3s50a-tq144-5 pulso120k.ngc pulso120k.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o pulso120k_map.ncd pulso120k.ngd pulso120k.pcf 
+par -w -intstyle ise -ol high -t 1 pulso120k_map.ncd pulso120k.ncd pulso120k.pcf 
+bitgen -intstyle ise -f pulso120k.ut pulso120k.ncd 
+xst -intstyle ise -ifn "F:/FPGA/Junio2018/Pulso120k/pulso120k.xst" -ofn "F:/FPGA/Junio2018/Pulso120k/pulso120k.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ucf.ucf -p xc3s50a-tq144-5 pulso120k.ngc pulso120k.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o pulso120k_map.ncd pulso120k.ngd pulso120k.pcf 
+par -w -intstyle ise -ol high -t 1 pulso120k_map.ncd pulso120k.ncd pulso120k.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml pulso120k.twx pulso120k.ncd -o pulso120k.twr pulso120k.pcf -ucf ucf.ucf 
+bitgen -intstyle ise -f pulso120k.ut pulso120k.ncd 
+xst -intstyle ise -ifn "F:/FPGA/Junio2018/Pulso120k/pulso120k.xst" -ofn "F:/FPGA/Junio2018/Pulso120k/pulso120k.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ucf.ucf -p xc3s50a-tq144-5 pulso120k.ngc pulso120k.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o pulso120k_map.ncd pulso120k.ngd pulso120k.pcf 
+par -w -intstyle ise -ol high -t 1 pulso120k_map.ncd pulso120k.ncd pulso120k.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml pulso120k.twx pulso120k.ncd -o pulso120k.twr pulso120k.pcf -ucf ucf.ucf 
+bitgen -intstyle ise -f pulso120k.ut pulso120k.ncd 
+xst -intstyle ise -ifn "F:/FPGA/Junio2018/Pulso120k/pulso120k.xst" -ofn "F:/FPGA/Junio2018/Pulso120k/pulso120k.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ucf.ucf -p xc3s50a-tq144-5 pulso120k.ngc pulso120k.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o pulso120k_map.ncd pulso120k.ngd pulso120k.pcf 
+par -w -intstyle ise -ol high -t 1 pulso120k_map.ncd pulso120k.ncd pulso120k.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml pulso120k.twx pulso120k.ncd -o pulso120k.twr pulso120k.pcf -ucf ucf.ucf 
+bitgen -intstyle ise -f pulso120k.ut pulso120k.ncd 
+xst -intstyle ise -ifn "F:/FPGA/Junio2018/Pulso120k/pulso120k.xst" -ofn "F:/FPGA/Junio2018/Pulso120k/pulso120k.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ucf.ucf -p xc3s50a-tq144-5 pulso120k.ngc pulso120k.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o pulso120k_map.ncd pulso120k.ngd pulso120k.pcf 
+par -w -intstyle ise -ol high -t 1 pulso120k_map.ncd pulso120k.ncd pulso120k.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml pulso120k.twx pulso120k.ncd -o pulso120k.twr pulso120k.pcf -ucf ucf.ucf 
+bitgen -intstyle ise -f pulso120k.ut pulso120k.ncd 
+xst -intstyle ise -ifn "F:/FPGA/Junio2018/Pulso120k/pulso120k.xst" -ofn "F:/FPGA/Junio2018/Pulso120k/pulso120k.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ucf.ucf -p xc3s50a-tq144-5 pulso120k.ngc pulso120k.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o pulso120k_map.ncd pulso120k.ngd pulso120k.pcf 
+par -w -intstyle ise -ol high -t 1 pulso120k_map.ncd pulso120k.ncd pulso120k.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml pulso120k.twx pulso120k.ncd -o pulso120k.twr pulso120k.pcf -ucf ucf.ucf 
+bitgen -intstyle ise -f pulso120k.ut pulso120k.ncd 
+xst -intstyle ise -ifn "F:/FPGA/Junio2018/Pulso120k/pulso120k.xst" -ofn "F:/FPGA/Junio2018/Pulso120k/pulso120k.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ucf.ucf -p xc3s50a-tq144-5 pulso120k.ngc pulso120k.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o pulso120k_map.ncd pulso120k.ngd pulso120k.pcf 
+par -w -intstyle ise -ol high -t 1 pulso120k_map.ncd pulso120k.ncd pulso120k.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml pulso120k.twx pulso120k.ncd -o pulso120k.twr pulso120k.pcf -ucf ucf.ucf 
+bitgen -intstyle ise -f pulso120k.ut pulso120k.ncd 
+xst -intstyle ise -ifn "F:/FPGA/Junio2018/Pulso120k/pulso120k.xst" -ofn "F:/FPGA/Junio2018/Pulso120k/pulso120k.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ucf.ucf -p xc3s50a-tq144-5 pulso120k.ngc pulso120k.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o pulso120k_map.ncd pulso120k.ngd pulso120k.pcf 
+par -w -intstyle ise -ol high -t 1 pulso120k_map.ncd pulso120k.ncd pulso120k.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml pulso120k.twx pulso120k.ncd -o pulso120k.twr pulso120k.pcf -ucf ucf.ucf 
+bitgen -intstyle ise -f pulso120k.ut pulso120k.ncd 
+xst -intstyle ise -ifn "F:/FPGA/Junio2018/Pulso120k/pulso120k.xst" -ofn "F:/FPGA/Junio2018/Pulso120k/pulso120k.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ucf.ucf -p xc3s50a-tq144-5 pulso120k.ngc pulso120k.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o pulso120k_map.ncd pulso120k.ngd pulso120k.pcf 
+par -w -intstyle ise -ol high -t 1 pulso120k_map.ncd pulso120k.ncd pulso120k.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml pulso120k.twx pulso120k.ncd -o pulso120k.twr pulso120k.pcf -ucf ucf.ucf 
+bitgen -intstyle ise -f pulso120k.ut pulso120k.ncd 
+xst -intstyle ise -ifn "F:/FPGA/Junio2018/Pulso120k/pulso120k.xst" -ofn "F:/FPGA/Junio2018/Pulso120k/pulso120k.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ucf.ucf -p xc3s50a-tq144-5 pulso120k.ngc pulso120k.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o pulso120k_map.ncd pulso120k.ngd pulso120k.pcf 
+par -w -intstyle ise -ol high -t 1 pulso120k_map.ncd pulso120k.ncd pulso120k.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml pulso120k.twx pulso120k.ncd -o pulso120k.twr pulso120k.pcf -ucf ucf.ucf 
+bitgen -intstyle ise -f pulso120k.ut pulso120k.ncd 
+xst -intstyle ise -ifn "C:/Users/gggus/Documents/FPGA/Pulso120k/pulso120k.xst" -ofn "C:/Users/gggus/Documents/FPGA/Pulso120k/pulso120k.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ucf.ucf -p xc3s50a-tq144-5 pulso120k.ngc pulso120k.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o pulso120k_map.ncd pulso120k.ngd pulso120k.pcf 
+par -w -intstyle ise -ol high -t 1 pulso120k_map.ncd pulso120k.ncd pulso120k.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml pulso120k.twx pulso120k.ncd -o pulso120k.twr pulso120k.pcf -ucf ucf.ucf 
+bitgen -intstyle ise -f pulso120k.ut pulso120k.ncd 
+xst -intstyle ise -ifn "C:/Users/gggus/Documents/FPGA/Pulso120k/pulso120k.xst" -ofn "C:/Users/gggus/Documents/FPGA/Pulso120k/pulso120k.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ucf.ucf -p xc3s50a-tq144-5 pulso120k.ngc pulso120k.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o pulso120k_map.ncd pulso120k.ngd pulso120k.pcf 
+par -w -intstyle ise -ol high -t 1 pulso120k_map.ncd pulso120k.ncd pulso120k.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml pulso120k.twx pulso120k.ncd -o pulso120k.twr pulso120k.pcf -ucf ucf.ucf 
+bitgen -intstyle ise -f pulso120k.ut pulso120k.ncd 
+xst -intstyle ise -ifn "C:/Users/gggus/Documents/FPGA/Pulso120k/pulso120k.xst" -ofn "C:/Users/gggus/Documents/FPGA/Pulso120k/pulso120k.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ucf.ucf -p xc3s50a-tq144-5 pulso120k.ngc pulso120k.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o pulso120k_map.ncd pulso120k.ngd pulso120k.pcf 
+par -w -intstyle ise -ol high -t 1 pulso120k_map.ncd pulso120k.ncd pulso120k.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml pulso120k.twx pulso120k.ncd -o pulso120k.twr pulso120k.pcf -ucf ucf.ucf 
+bitgen -intstyle ise -f pulso120k.ut pulso120k.ncd 
+xst -intstyle ise -ifn "C:/Users/gggus/Documents/FPGA/Pulso120k/pulso120k.xst" -ofn "C:/Users/gggus/Documents/FPGA/Pulso120k/pulso120k.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ucf.ucf -p xc3s50a-tq144-5 pulso120k.ngc pulso120k.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o pulso120k_map.ncd pulso120k.ngd pulso120k.pcf 
+par -w -intstyle ise -ol high -t 1 pulso120k_map.ncd pulso120k.ncd pulso120k.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml pulso120k.twx pulso120k.ncd -o pulso120k.twr pulso120k.pcf -ucf ucf.ucf 
+bitgen -intstyle ise -f pulso120k.ut pulso120k.ncd 
+xst -intstyle ise -ifn "C:/Users/gggus/Documents/FPGA/Pulso120k/pulso120k.xst" -ofn "C:/Users/gggus/Documents/FPGA/Pulso120k/pulso120k.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ucf.ucf -p xc3s50a-tq144-5 pulso120k.ngc pulso120k.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o pulso120k_map.ncd pulso120k.ngd pulso120k.pcf 
+par -w -intstyle ise -ol high -t 1 pulso120k_map.ncd pulso120k.ncd pulso120k.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml pulso120k.twx pulso120k.ncd -o pulso120k.twr pulso120k.pcf -ucf ucf.ucf 
+bitgen -intstyle ise -f pulso120k.ut pulso120k.ncd 
+xst -intstyle ise -ifn "C:/Users/gggus/Documents/FPGA/Pulso120k/pulso120k.xst" -ofn "C:/Users/gggus/Documents/FPGA/Pulso120k/pulso120k.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ucf.ucf -p xc3s50a-tq144-5 pulso120k.ngc pulso120k.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o pulso120k_map.ncd pulso120k.ngd pulso120k.pcf 
+par -w -intstyle ise -ol high -t 1 pulso120k_map.ncd pulso120k.ncd pulso120k.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml pulso120k.twx pulso120k.ncd -o pulso120k.twr pulso120k.pcf -ucf ucf.ucf 
+bitgen -intstyle ise -f pulso120k.ut pulso120k.ncd 
+xst -intstyle ise -ifn "C:/Users/gggus/Documents/FPGA/Pulso120k/pulso120k.xst" -ofn "C:/Users/gggus/Documents/FPGA/Pulso120k/pulso120k.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ucf.ucf -p xc3s50a-tq144-5 pulso120k.ngc pulso120k.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o pulso120k_map.ncd pulso120k.ngd pulso120k.pcf 
+par -w -intstyle ise -ol high -t 1 pulso120k_map.ncd pulso120k.ncd pulso120k.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml pulso120k.twx pulso120k.ncd -o pulso120k.twr pulso120k.pcf -ucf ucf.ucf 
+bitgen -intstyle ise -f pulso120k.ut pulso120k.ncd 
+xst -intstyle ise -ifn "C:/Users/gggus/Documents/FPGA/Pulso120k/pulso120k.xst" -ofn "C:/Users/gggus/Documents/FPGA/Pulso120k/pulso120k.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ucf.ucf -p xc3s50a-tq144-5 pulso120k.ngc pulso120k.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o pulso120k_map.ncd pulso120k.ngd pulso120k.pcf 
+par -w -intstyle ise -ol high -t 1 pulso120k_map.ncd pulso120k.ncd pulso120k.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml pulso120k.twx pulso120k.ncd -o pulso120k.twr pulso120k.pcf -ucf ucf.ucf 
+bitgen -intstyle ise -f pulso120k.ut pulso120k.ncd 
+xst -intstyle ise -ifn "C:/Users/gggus/Documents/FPGA/Pulso120k/pulso120k.xst" -ofn "C:/Users/gggus/Documents/FPGA/Pulso120k/pulso120k.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ucf.ucf -p xc3s50a-tq144-5 pulso120k.ngc pulso120k.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o pulso120k_map.ncd pulso120k.ngd pulso120k.pcf 
+par -w -intstyle ise -ol high -t 1 pulso120k_map.ncd pulso120k.ncd pulso120k.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml pulso120k.twx pulso120k.ncd -o pulso120k.twr pulso120k.pcf -ucf ucf.ucf 
+bitgen -intstyle ise -f pulso120k.ut pulso120k.ncd 

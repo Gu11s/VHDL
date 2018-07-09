@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\Users\gggus\Documents\FPGA\Pulso120k\pulso120k.ncd
+OUTFILE=C:\Users\gggus\Documents\FPGA\Pulso120k\pulso120k.bit
+FAMILY=Spartan3A and Spartan3AN
+PART=xc3s50a-5tq144
+WORKINGDIR=C:\Users\gggus\Documents\FPGA\Pulso120k
+LICENSE=WebPack
+USER_INFO=__0_0_0

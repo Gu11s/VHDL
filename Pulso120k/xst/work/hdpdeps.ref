@@ -1,0 +1,10 @@
+V3 5
+FL C:/Users/gggus/Documents/FPGA/Pulso120k/pulso120k.vhd 2018/07/05.02:16:46 P.20131013
+EN work/pulso120k 1530778609 \
+      FL C:/Users/gggus/Documents/FPGA/Pulso120k/pulso120k.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/pulso120k/Behavioral 1530778610 \
+      FL C:/Users/gggus/Documents/FPGA/Pulso120k/pulso120k.vhd EN work/pulso120k 1530778609
+FL C:/Users/USUARIO/Documents/FPGA/Pulso120k/pulso120k.vhd 2018/06/22.12:13:08 P.20131013
+FL F:/FPGA/Junio2018/Pulso120k/pulso120k.vhd 2018/07/04.19:06:21 P.20131013
