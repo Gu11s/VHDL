@@ -1,0 +1,8 @@
+V3 3
+FL C:/Users/gggus/Documents/FPGA/SevenSegmentDisplay/sevensegmentdisplay.vhd 2018/07/05.10:40:27 P.20131013
+EN work/sevensegmentdisplay 1530808831 \
+      FL C:/Users/gggus/Documents/FPGA/SevenSegmentDisplay/sevensegmentdisplay.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/sevensegmentdisplay/Behavioral 1530808832 \
+      FL C:/Users/gggus/Documents/FPGA/SevenSegmentDisplay/sevensegmentdisplay.vhd \
+      EN work/sevensegmentdisplay 1530808831
