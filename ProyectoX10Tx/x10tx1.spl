@@ -1,0 +1,10 @@
+[Inputs]
+clk_1
+CXC_1
+push_1
+rst_1
+[Outputs]
+pin_1
+led1_1
+LED_1
+[BiDir]

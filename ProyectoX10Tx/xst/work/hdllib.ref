@@ -1,0 +1,10 @@
+AR x10tx1 behavioral C:/Users/gggus/Documents/FPGA/ProyectoX10Tx/x10tx1.vhd sub00/vhpl01 1530820821
+EN x10tx1 NULL C:/Users/gggus/Documents/FPGA/ProyectoX10Tx/x10tx1.vhd sub00/vhpl00 1530820820
+EN x10tx2 NULL C:/Users/gggus/Documents/FPGA/ProyectoX10Tx/x10tx2.vhd sub00/vhpl04 1530820822
+EN x10tx3 NULL C:/Users/gggus/Documents/FPGA/ProyectoX10Tx/x10tx3.vhd sub00/vhpl06 1530820824
+EN x10tx4 NULL C:/Users/gggus/Documents/FPGA/ProyectoX10Tx/x10tx4.vhd sub00/vhpl02 1530820826
+AR top_design behavioral C:/Users/gggus/Documents/FPGA/ProyectoX10Tx/Top_Design.vhd sub00/vhpl09 1530820829
+EN top_design NULL C:/Users/gggus/Documents/FPGA/ProyectoX10Tx/Top_Design.vhd sub00/vhpl08 1530820828
+AR x10tx4 behavioral C:/Users/gggus/Documents/FPGA/ProyectoX10Tx/x10tx4.vhd sub00/vhpl03 1530820827
+AR x10tx2 behavioral C:/Users/gggus/Documents/FPGA/ProyectoX10Tx/x10tx2.vhd sub00/vhpl05 1530820823
+AR x10tx3 behavioral C:/Users/gggus/Documents/FPGA/ProyectoX10Tx/x10tx3.vhd sub00/vhpl07 1530820825

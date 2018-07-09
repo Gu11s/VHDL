@@ -1,0 +1,19 @@
+//! **************************************************************************
+// Written by: Map P.20131013 on Thu Jul 05 14:00:35 2018
+//! **************************************************************************
+
+SCHEMATIC START;
+CONFIG VCCAUX = "3.3";
+COMP "ON1" LOCATE = SITE "P79" LEVEL 1;
+COMP "ON2" LOCATE = SITE "P77" LEVEL 1;
+COMP "OFF1" LOCATE = SITE "P78" LEVEL 1;
+COMP "OFF2" LOCATE = SITE "P76" LEVEL 1;
+COMP "Led1_Top" LOCATE = SITE "P55" LEVEL 1;
+COMP "LedON" LOCATE = SITE "P46" LEVEL 1;
+COMP "CXCTop" LOCATE = SITE "P25" LEVEL 1;
+COMP "PinTop" LOCATE = SITE "P31" LEVEL 1;
+COMP "clkTop" LOCATE = SITE "P129" LEVEL 1;
+COMP "rstTop" LOCATE = SITE "P70" LEVEL 1;
+NET "clkTop_BUFGP/IBUFG" PERIOD = 83.3333333 ns HIGH 50%;
+SCHEMATIC END;
+

@@ -1,0 +1,15 @@
+
+
+
+// Instantiate the module
+x10tx1 instance_name (
+    .clk_1(clk_1), 
+    .CXC_1(CXC_1), 
+    .push_1(push_1), 
+    .rst_1(rst_1), 
+    .pin_1(pin_1), 
+    .led1_1(led1_1), 
+    .LED_1(LED_1)
+    );
+
+

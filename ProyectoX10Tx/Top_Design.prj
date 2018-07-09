@@ -1,0 +1,5 @@
+vhdl work "x10tx4.vhd"
+vhdl work "x10tx3.vhd"
+vhdl work "x10tx2.vhd"
+vhdl work "x10tx1.vhd"
+vhdl work "Top_Design.vhd"

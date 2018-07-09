@@ -1,0 +1,5 @@
+set -tmpdir "C:/Users/gggus/Documents/FPGA/ProyectoX10Tx/xst/projnav.tmp"
+set -xsthdpdir "C:/Users/gggus/Documents/FPGA/ProyectoX10Tx/xst"
+elaborate
+-ifn x10tx1.prj
+-ifmt mixed

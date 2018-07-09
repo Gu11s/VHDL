@@ -1,0 +1,32 @@
+V3 19
+FL C:/Users/gggus/Documents/FPGA/ProyectoX10Tx/Top_Design.vhd 2018/07/05.13:59:51 P.20131013
+EN work/Top_Design 1530820828 \
+      FL C:/Users/gggus/Documents/FPGA/ProyectoX10Tx/Top_Design.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/Top_Design/Behavioral 1530820829 \
+      FL C:/Users/gggus/Documents/FPGA/ProyectoX10Tx/Top_Design.vhd \
+      EN work/Top_Design 1530820828 CP x10tx1 CP x10tx2 CP x10tx3 CP x10tx4
+FL C:/Users/gggus/Documents/FPGA/ProyectoX10Tx/x10tx1.vhd 2018/07/05.08:56:13 P.20131013
+EN work/x10tx1 1530820820 \
+      FL C:/Users/gggus/Documents/FPGA/ProyectoX10Tx/x10tx1.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/x10tx1/Behavioral 1530820821 \
+      FL C:/Users/gggus/Documents/FPGA/ProyectoX10Tx/x10tx1.vhd EN work/x10tx1 1530820820
+FL C:/Users/gggus/Documents/FPGA/ProyectoX10Tx/x10tx2.vhd 2018/07/05.03:24:28 P.20131013
+EN work/x10tx2 1530820822 \
+      FL C:/Users/gggus/Documents/FPGA/ProyectoX10Tx/x10tx2.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/x10tx2/Behavioral 1530820823 \
+      FL C:/Users/gggus/Documents/FPGA/ProyectoX10Tx/x10tx2.vhd EN work/x10tx2 1530820822
+FL C:/Users/gggus/Documents/FPGA/ProyectoX10Tx/x10tx3.vhd 2018/07/04.18:46:33 P.20131013
+EN work/x10tx3 1530820824 \
+      FL C:/Users/gggus/Documents/FPGA/ProyectoX10Tx/x10tx3.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/x10tx3/Behavioral 1530820825 \
+      FL C:/Users/gggus/Documents/FPGA/ProyectoX10Tx/x10tx3.vhd EN work/x10tx3 1530820824
+FL C:/Users/gggus/Documents/FPGA/ProyectoX10Tx/x10tx4.vhd 2018/07/04.18:46:41 P.20131013
+EN work/x10tx4 1530820826 \
+      FL C:/Users/gggus/Documents/FPGA/ProyectoX10Tx/x10tx4.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/x10tx4/Behavioral 1530820827 \
+      FL C:/Users/gggus/Documents/FPGA/ProyectoX10Tx/x10tx4.vhd EN work/x10tx4 1530820826

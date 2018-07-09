@@ -1,0 +1,4 @@
+vhdtdtfi -prj ProyectoX10Tx -o C:/Users/gggus/Documents/FPGA/ProyectoX10Tx/x10tx4.tfi -module x10tx4 -template C:/Xilinx/14.7/ISE_DS/ISE//data/tfi.tft -deleteonerror -lib work x10tx4.vhd 
+vhdtdtfi -prj ProyectoX10Tx -o C:/Users/gggus/Documents/FPGA/ProyectoX10Tx/x10tx4.vhi -module x10tx4 -template C:/Xilinx/14.7/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work x10tx4.vhd 
+vhdtdtfi -prj ProyectoX10Tx -o C:/Users/gggus/Documents/FPGA/ProyectoX10Tx/x10tx4.vhi -module x10tx4 -template C:/Xilinx/14.7/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work x10tx4.vhd 
+vhdtdtfi -prj ProyectoX10Tx -o C:/Users/gggus/Documents/FPGA/ProyectoX10Tx/x10tx4.vhi -module x10tx4 -template C:/Xilinx/14.7/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work x10tx4.vhd 
