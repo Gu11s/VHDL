@@ -1,0 +1,6 @@
+V3 3
+FL C:/Users/gggus/Documents/FPGA/PWM/pwm.vhd 2018/07/04.15:22:53 P.20131013
+EN work/PWM 1530745055 FL C:/Users/gggus/Documents/FPGA/PWM/pwm.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181
+AR work/PWM/Behavioral 1530745056 \
+      FL C:/Users/gggus/Documents/FPGA/PWM/pwm.vhd EN work/PWM 1530745055

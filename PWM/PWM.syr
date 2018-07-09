@@ -1,0 +1,446 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.10 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.10 secs
+ 
+--> Reading design: PWM.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+	9.1) Device utilization summary
+	9.2) Partition Resource Summary
+	9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "PWM.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "PWM"
+Output Format                      : NGC
+Target Device                      : xc3s50a-5-tq144
+
+---- Source Options
+Top Module Name                    : PWM
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : Yes
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : Yes
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Multiplier Style                   : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 24
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Yes
+Use Synchronous Set                : Yes
+Use Synchronous Reset              : Yes
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "C:/Users/gggus/Documents/FPGA/PWM/pwm.vhd" in Library work.
+Architecture behavioral of Entity pwm is up to date.
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for entity <PWM> in library <work> (architecture <behavioral>) with generics.
+	Resolucion = 240000
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing generic Entity <PWM> in library <work> (Architecture <behavioral>).
+	Resolucion = 240000
+Entity <PWM> analyzed. Unit <PWM> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+
+Synthesizing Unit <PWM>.
+    Related source file is "C:/Users/gggus/Documents/FPGA/PWM/pwm.vhd".
+    Found 1-bit register for signal <PWM>.
+    Found 32-bit comparator less for signal <PWM$cmp_lt0000> created at line 53.
+    Found 32-bit register for signal <tiempo>.
+    Found 18-bit up counter for signal <Tt>.
+    Summary:
+	inferred   1 Counter(s).
+	inferred  33 D-type flip-flop(s).
+	inferred   1 Comparator(s).
+Unit <PWM> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Counters                                             : 1
+ 18-bit up counter                                     : 1
+# Registers                                            : 2
+ 1-bit register                                        : 1
+ 32-bit register                                       : 1
+# Comparators                                          : 1
+ 32-bit comparator less                                : 1
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+WARNING:Xst:1426 - The value init of the FF/Latch tiempo_8 hinder the constant cleaning in the block PWM.
+   You should achieve better results by setting this init to 1.
+WARNING:Xst:1293 - FF/Latch <tiempo_31> has a constant value of 0 in block <PWM>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <tiempo_30> has a constant value of 0 in block <PWM>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <tiempo_29> has a constant value of 0 in block <PWM>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <tiempo_28> has a constant value of 0 in block <PWM>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <tiempo_27> has a constant value of 0 in block <PWM>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <tiempo_26> has a constant value of 0 in block <PWM>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <tiempo_25> has a constant value of 0 in block <PWM>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <tiempo_24> has a constant value of 0 in block <PWM>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <tiempo_23> has a constant value of 0 in block <PWM>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <tiempo_22> has a constant value of 0 in block <PWM>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <tiempo_21> has a constant value of 0 in block <PWM>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <tiempo_20> has a constant value of 0 in block <PWM>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <tiempo_19> has a constant value of 0 in block <PWM>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <tiempo_18> has a constant value of 0 in block <PWM>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <tiempo_17> has a constant value of 0 in block <PWM>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <tiempo_16> has a constant value of 0 in block <PWM>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <tiempo_15> has a constant value of 0 in block <PWM>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <tiempo_13> has a constant value of 0 in block <PWM>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <tiempo_9> has a constant value of 0 in block <PWM>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <tiempo_4> has a constant value of 0 in block <PWM>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <tiempo_3> has a constant value of 0 in block <PWM>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <tiempo_2> has a constant value of 0 in block <PWM>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <tiempo_1> has a constant value of 0 in block <PWM>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <tiempo_0> has a constant value of 0 in block <PWM>. This FF/Latch will be trimmed during the optimization process.
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# Counters                                             : 1
+ 18-bit up counter                                     : 1
+# Registers                                            : 33
+ Flip-Flops                                            : 33
+# Comparators                                          : 1
+ 32-bit comparator less                                : 1
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+WARNING:Xst:1426 - The value init of the FF/Latch tiempo_8 hinder the constant cleaning in the block PWM.
+   You should achieve better results by setting this init to 1.
+WARNING:Xst:1293 - FF/Latch <tiempo_31> has a constant value of 0 in block <PWM>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <tiempo_30> has a constant value of 0 in block <PWM>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <tiempo_29> has a constant value of 0 in block <PWM>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <tiempo_28> has a constant value of 0 in block <PWM>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <tiempo_27> has a constant value of 0 in block <PWM>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <tiempo_26> has a constant value of 0 in block <PWM>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <tiempo_25> has a constant value of 0 in block <PWM>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <tiempo_24> has a constant value of 0 in block <PWM>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <tiempo_23> has a constant value of 0 in block <PWM>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <tiempo_22> has a constant value of 0 in block <PWM>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <tiempo_21> has a constant value of 0 in block <PWM>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <tiempo_20> has a constant value of 0 in block <PWM>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <tiempo_19> has a constant value of 0 in block <PWM>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <tiempo_18> has a constant value of 0 in block <PWM>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <tiempo_17> has a constant value of 0 in block <PWM>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <tiempo_16> has a constant value of 0 in block <PWM>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <tiempo_15> has a constant value of 0 in block <PWM>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <tiempo_13> has a constant value of 0 in block <PWM>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <tiempo_9> has a constant value of 0 in block <PWM>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <tiempo_4> has a constant value of 0 in block <PWM>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <tiempo_3> has a constant value of 0 in block <PWM>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <tiempo_2> has a constant value of 0 in block <PWM>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <tiempo_1> has a constant value of 0 in block <PWM>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <tiempo_0> has a constant value of 0 in block <PWM>. This FF/Latch will be trimmed during the optimization process.
+INFO:Xst:2261 - The FF/Latch <tiempo_7> in Unit <PWM> is equivalent to the following FF/Latch, which will be removed : <tiempo_14> 
+INFO:Xst:2261 - The FF/Latch <tiempo_10> in Unit <PWM> is equivalent to the following FF/Latch, which will be removed : <tiempo_12> 
+
+Optimizing unit <PWM> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block PWM, actual ratio is 3.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 25
+ Flip-Flops                                            : 25
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : PWM.ngr
+Top Level Output File Name         : PWM
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : No
+
+Design Statistics
+# IOs                              : 5
+
+Cell Usage :
+# BELS                             : 95
+#      GND                         : 1
+#      INV                         : 5
+#      LUT1                        : 17
+#      LUT2                        : 7
+#      LUT3                        : 2
+#      LUT4                        : 11
+#      MUXCY                       : 33
+#      VCC                         : 1
+#      XORCY                       : 18
+# FlipFlops/Latches                : 25
+#      FDR                         : 19
+#      FDRE                        : 2
+#      FDSE                        : 4
+# Clock Buffers                    : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 4
+#      IBUF                        : 3
+#      OBUF                        : 1
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s50atq144-5 
+
+ Number of Slices:                       22  out of    704     3%  
+ Number of Slice Flip Flops:             25  out of   1408     1%  
+ Number of 4 input LUTs:                 42  out of   1408     2%  
+ Number of IOs:                           5
+ Number of bonded IOBs:                   5  out of    108     4%  
+ Number of GCLKs:                         1  out of     24     4%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+Clk                                | BUFGP                  | 25    |
+-----------------------------------+------------------------+-------+
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -5
+
+   Minimum period: 4.365ns (Maximum Frequency: 229.095MHz)
+   Minimum input arrival time before clock: 5.297ns
+   Maximum output required time after clock: 5.248ns
+   Maximum combinational path delay: No path found
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'Clk'
+  Clock period: 4.365ns (frequency: 229.095MHz)
+  Total number of paths / destination ports: 524 / 37
+-------------------------------------------------------------------------
+Delay:               4.365ns (Levels of Logic = 13)
+  Source:            tiempo_5 (FF)
+  Destination:       PWM (FF)
+  Source Clock:      Clk rising
+  Destination Clock: Clk rising
+
+  Data Path: tiempo_5 to PWM
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDSE:C->Q             1   0.495   0.359  tiempo_5 (tiempo_5)
+     LUT4:I3->O            1   0.561   0.423  tiempo_mux0000<5>1 (tiempo_mux0000<5>)
+     LUT2:I1->O            1   0.562   0.000  Mcompar_PWM_cmp_lt0000_lut<0> (Mcompar_PWM_cmp_lt0000_lut<0>)
+     MUXCY:S->O            1   0.523   0.000  Mcompar_PWM_cmp_lt0000_cy<0> (Mcompar_PWM_cmp_lt0000_cy<0>)
+     MUXCY:CI->O           1   0.065   0.000  Mcompar_PWM_cmp_lt0000_cy<1> (Mcompar_PWM_cmp_lt0000_cy<1>)
+     MUXCY:CI->O           1   0.065   0.000  Mcompar_PWM_cmp_lt0000_cy<2> (Mcompar_PWM_cmp_lt0000_cy<2>)
+     MUXCY:CI->O           1   0.065   0.000  Mcompar_PWM_cmp_lt0000_cy<3> (Mcompar_PWM_cmp_lt0000_cy<3>)
+     MUXCY:CI->O           1   0.065   0.000  Mcompar_PWM_cmp_lt0000_cy<4> (Mcompar_PWM_cmp_lt0000_cy<4>)
+     MUXCY:CI->O           1   0.065   0.000  Mcompar_PWM_cmp_lt0000_cy<5> (Mcompar_PWM_cmp_lt0000_cy<5>)
+     MUXCY:CI->O           1   0.065   0.000  Mcompar_PWM_cmp_lt0000_cy<6> (Mcompar_PWM_cmp_lt0000_cy<6>)
+     MUXCY:CI->O           1   0.065   0.000  Mcompar_PWM_cmp_lt0000_cy<7> (Mcompar_PWM_cmp_lt0000_cy<7>)
+     MUXCY:CI->O           1   0.065   0.000  Mcompar_PWM_cmp_lt0000_cy<8> (Mcompar_PWM_cmp_lt0000_cy<8>)
+     MUXCY:CI->O           1   0.065   0.000  Mcompar_PWM_cmp_lt0000_cy<9> (Mcompar_PWM_cmp_lt0000_cy<9>)
+     MUXCY:CI->O           1   0.065   0.357  Mcompar_PWM_cmp_lt0000_cy<10> (Mcompar_PWM_cmp_lt0000_cy<10>)
+     FDR:R                     0.435          PWM
+    ----------------------------------------
+    Total                      4.365ns (3.226ns logic, 1.139ns route)
+                                       (73.9% logic, 26.1% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'Clk'
+  Total number of paths / destination ports: 48 / 17
+-------------------------------------------------------------------------
+Offset:              5.297ns (Levels of Logic = 12)
+  Source:            SW2 (PAD)
+  Destination:       PWM (FF)
+  Destination Clock: Clk rising
+
+  Data Path: SW2 to PWM
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O            10   0.824   0.816  SW2_IBUF (SW2_IBUF)
+     LUT2:I1->O            9   0.562   0.699  tiempo_and0000_inv1 (tiempo_and0000_inv)
+     LUT4:I3->O            1   0.561   0.000  Mcompar_PWM_cmp_lt0000_lut<2> (Mcompar_PWM_cmp_lt0000_lut<2>)
+     MUXCY:S->O            1   0.523   0.000  Mcompar_PWM_cmp_lt0000_cy<2> (Mcompar_PWM_cmp_lt0000_cy<2>)
+     MUXCY:CI->O           1   0.065   0.000  Mcompar_PWM_cmp_lt0000_cy<3> (Mcompar_PWM_cmp_lt0000_cy<3>)
+     MUXCY:CI->O           1   0.065   0.000  Mcompar_PWM_cmp_lt0000_cy<4> (Mcompar_PWM_cmp_lt0000_cy<4>)
+     MUXCY:CI->O           1   0.065   0.000  Mcompar_PWM_cmp_lt0000_cy<5> (Mcompar_PWM_cmp_lt0000_cy<5>)
+     MUXCY:CI->O           1   0.065   0.000  Mcompar_PWM_cmp_lt0000_cy<6> (Mcompar_PWM_cmp_lt0000_cy<6>)
+     MUXCY:CI->O           1   0.065   0.000  Mcompar_PWM_cmp_lt0000_cy<7> (Mcompar_PWM_cmp_lt0000_cy<7>)
+     MUXCY:CI->O           1   0.065   0.000  Mcompar_PWM_cmp_lt0000_cy<8> (Mcompar_PWM_cmp_lt0000_cy<8>)
+     MUXCY:CI->O           1   0.065   0.000  Mcompar_PWM_cmp_lt0000_cy<9> (Mcompar_PWM_cmp_lt0000_cy<9>)
+     MUXCY:CI->O           1   0.065   0.357  Mcompar_PWM_cmp_lt0000_cy<10> (Mcompar_PWM_cmp_lt0000_cy<10>)
+     FDR:R                     0.435          PWM
+    ----------------------------------------
+    Total                      5.297ns (3.425ns logic, 1.872ns route)
+                                       (64.7% logic, 35.3% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'Clk'
+  Total number of paths / destination ports: 1 / 1
+-------------------------------------------------------------------------
+Offset:              5.248ns (Levels of Logic = 1)
+  Source:            PWM (FF)
+  Destination:       PWM (PAD)
+  Source Clock:      Clk rising
+
+  Data Path: PWM to PWM
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDR:C->Q              1   0.495   0.357  PWM (PWM_OBUF)
+     OBUF:I->O                 4.396          PWM_OBUF (PWM)
+    ----------------------------------------
+    Total                      5.248ns (4.891ns logic, 0.357ns route)
+                                       (93.2% logic, 6.8% route)
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 5.00 secs
+Total CPU time to Xst completion: 4.40 secs
+ 
+--> 
+
+Total memory usage is 4534724 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :   50 (   0 filtered)
+Number of infos    :    2 (   0 filtered)
+

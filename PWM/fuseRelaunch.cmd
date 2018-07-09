@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "C:/Users/gggus/Documents/FPGA/PWM/PWM_isim_beh.exe" -prj "C:/Users/gggus/Documents/FPGA/PWM/PWM_beh.prj" "work.PWM" 

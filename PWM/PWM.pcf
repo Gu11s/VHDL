@@ -1,0 +1,14 @@
+//! **************************************************************************
+// Written by: Map P.20131013 on Wed Jul 04 16:57:47 2018
+//! **************************************************************************
+
+SCHEMATIC START;
+CONFIG VCCAUX = "3.3";
+COMP "PWM" LOCATE = SITE "P31" LEVEL 1;
+COMP "SW1" LOCATE = SITE "P80" LEVEL 1;
+COMP "SW2" LOCATE = SITE "P79" LEVEL 1;
+COMP "SW3" LOCATE = SITE "P78" LEVEL 1;
+COMP "Clk" LOCATE = SITE "P129" LEVEL 1;
+NET "Clk_BUFGP/IBUFG" PERIOD = 83.3333333 ns HIGH 50%;
+SCHEMATIC END;
+

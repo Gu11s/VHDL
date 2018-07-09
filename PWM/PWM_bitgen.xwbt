@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\Users\gggus\Documents\FPGA\PWM\PWM.ncd
+OUTFILE=C:\Users\gggus\Documents\FPGA\PWM\PWM.bit
+FAMILY=Spartan3A and Spartan3AN
+PART=xc3s50a-5tq144
+WORKINGDIR=C:\Users\gggus\Documents\FPGA\PWM
+LICENSE=WebPack
+USER_INFO=__0_0_0
